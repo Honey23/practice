@@ -49,6 +49,8 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -196,13 +198,18 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\itemsController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\storesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\item.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\PracticeModel.cs" />
+    <Compile Include="Models\store.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -265,6 +272,16 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\items\Create.cshtml" />
+    <Content Include="Views\items\Delete.cshtml" />
+    <Content Include="Views\items\Details.cshtml" />
+    <Content Include="Views\items\Edit.cshtml" />
+    <Content Include="Views\items\Index.cshtml" />
+    <Content Include="Views\stores\Create.cshtml" />
+    <Content Include="Views\stores\Delete.cshtml" />
+    <Content Include="Views\stores\Details.cshtml" />
+    <Content Include="Views\stores\Edit.cshtml" />
+    <Content Include="Views\stores\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
