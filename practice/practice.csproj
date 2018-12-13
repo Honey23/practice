@@ -198,14 +198,19 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\item.cs" />
     <Compile Include="Controllers\itemsController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\Model1.cs" />
+    <Compile Include="Controllers\store.cs" />
     <Compile Include="Controllers\storesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Class1.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\Interface1.cs" />
     <Compile Include="Models\item.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\PracticeModel.cs" />
